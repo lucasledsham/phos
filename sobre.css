@@ -56,7 +56,6 @@ ul {
 
 .phos {
   display: flex;
-  grid-template-columns: 1fr 1fr;
   max-width: 850px;
   justify-items: center;
   position: relative;
