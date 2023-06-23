@@ -55,10 +55,21 @@ ul {
 }
 
 .phos {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
-  max-width: 1000px;
+  max-width: 850px;
   justify-items: center;
+  position: relative;
+}
+
+.phos::before {
+  content: "";
+  background-color: #7ed956;
+  height: 4px;
+  width: 60px;
+  position: absolute;
+  top: 30px;
+  right: 300px;
 }
 
 .descricao {
