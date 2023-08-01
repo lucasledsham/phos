@@ -122,39 +122,3 @@ ul {
   padding: 40px;
   box-sizing: border-box;
 }
-
-.hehe {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-/* Responsivo */
-
-@media (max-width: 715px) {
-  .quadro {
-    grid-template-columns: 1fr;
-  }
-
-  .detalhe {
-    display: none;
-  }
-
-  .evolua {
-    text-align: left;
-    justify-items: center;
-  }
-
-  .header {
-    gap: 20px;
-  }
-
-  .image {
-    display: none;
-  }
-}
-
-@media (min-width: 715px) {
-  .hehe {
-    display: none;
-  }
-}
