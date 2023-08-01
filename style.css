@@ -44,6 +44,8 @@ ul {
 .menu {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .menu a {
@@ -97,6 +99,11 @@ ul {
   background-color: #7eb156;
 }
 
+.image img {
+  object-fit: cover;
+  height: 100%;
+}
+
 .subtitulo {
   font-size: 120px;
   /* color: #c6c6c6; */
@@ -116,15 +123,12 @@ ul {
   box-sizing: border-box;
 }
 
-.image img {
-  object-fit: cover;
-  height: 100%;
-}
-
 .hehe {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+/* Responsivo */
 
 @media (max-width: 715px) {
   .quadro {
